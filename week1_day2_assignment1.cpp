@@ -6,7 +6,7 @@ int main()
     cout << "Enter the base salary: ";
     cin >> baseSalary;
 
-    const double bonusPercentage = 0.10;
+    const double bonusPercentage = 0.15;
 
     double bonusAmount = baseSalary * bonusPercentage;
 
