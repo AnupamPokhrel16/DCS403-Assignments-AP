@@ -88,3 +88,16 @@ int main()
 
     return 0;
 }
+
+
+
+
+double min(double array[], int n) {
+    double minimum = array[0];      
+    for (int i = 1; i < n; i++) {
+        if (array[i] < minimum) {
+            minimum = array[i];      
+        }
+    }
+    return minimum;
+}
